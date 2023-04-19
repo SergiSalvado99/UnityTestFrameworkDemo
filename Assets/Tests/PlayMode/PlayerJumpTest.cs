@@ -59,8 +59,8 @@ namespace Tests.PlayMode
 
             for (int i = 0; i < testCasesInFile.Count; i++) //For each line in the file, a new test case is created. Arguments are obtained by splitting the line using a comma character
             {
-                int arg1 = Int32.Parse(testCasesInFile[i].Split(";")[0]); //Before comma
-                int arg2 = Int32.Parse(testCasesInFile[i].Split(";")[1]); //After comma
+                int arg1 = Int32.Parse(testCasesInFile[i].Split(";")[0]); //Before semicolon
+                int arg2 = Int32.Parse(testCasesInFile[i].Split(";")[1]); //After semicolon
 
                 yield return new MaximumYPositionTestCase { verticalForce = arg1, expectedMaximumYPosition = arg2};
             }
