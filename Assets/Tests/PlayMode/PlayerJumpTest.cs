@@ -37,7 +37,7 @@ namespace Tests.PlayMode
         [SetUp]
         public void Setup()
         {
-            SceneManager.LoadScene("Scenes/SampleScene");
+            SceneManager.LoadScene("Scenes/DemoScene");
         }
         
         public struct MaximumYPositionTestCase  //Structure of MaximumYPosition test case.
