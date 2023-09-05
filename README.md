@@ -1,4 +1,4 @@
-# ScopelyDemo
+# UnityTestFrameworkDemo
 
 Unity 3D demo where two test scripts are created and tested using the Unity Test Framework. 
 
